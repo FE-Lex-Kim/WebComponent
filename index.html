@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <style>
+      h3 {
+        color: indigo;
+      }
+    </style>
+    <h3 class="bt">Hello World</h3>
+    <user-card city="Vancouver" scenery="./src/img/Vancovuer.jpg">
+      <div slot="nation">Nation: Canada</div>
+      <div slot="weather">Weather: Rainy</div>
+    </user-card>
+    <user-card city="Laos" scenery="./src/img/laos.jpg">
+      <div slot="nation">Nation: Laos</div>
+      <div slot="weather">Weather: Sunny</div>
+    </user-card>
+    <script type="module" src="./UserCard.js"></script>
+  </body>
+</html>
